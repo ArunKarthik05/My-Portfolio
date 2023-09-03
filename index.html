@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My PortFolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="mediaqueries.css">
+</head>
+<body>
+    <nav id="desktop-nav">
+        <div class="logo">Arun Karthik</div>
+        <div>
+            <ul class="nav-links">
+                <li><a href="#about">About</a></li>
+                <li><a href="#xperience">Experience</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+    <nav id="hamburger-nav">
+        <div class="logo">Arun Karthik</div>
+            <div class="hamburger-menu">
+                <div class="hamburger-icon" onclick="toggleMenu()">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+            <div class="menu-links">
+                <li><a href="#about" onclick="toggleMenu()">About</a></li>
+                    <li><a href="#xperience" onclick="toggleMenu()">Experience</a></li>
+                    <li><a href="#projects" onclick="toggleMenu()">Projects</a></li>
+                    <li><a href="#contact" onclick="toggleMenu()">Contact</a></li>
+            </div>
+        </div>
+
+
+    </nav>
+    <section id="profile">
+        <div class="Profile-pic">
+            <img src="./assets/profile.jpeg" alt="My profile pic" class="" >
+        </div>
+            <div class="section__text">
+                <p class="section__text__p1">Hello,I am</p>
+                <h1 class="title">Arun Karthik</h1>
+                <p class="section__text__p2">Front-End Developer</p>
+                <div class="btn-container">
+                    <button class="resume" onclick="window.open('assets/ArunKarthik_SE.pdf')">
+                    View Resume</button>
+
+                    <button class="contact" onclick="location.href='./#contact'">
+                    Contact Me</button>
+                </div>
+                <div class="socials">
+                    <div class="socials-container-1">
+                        <img src="./assets/linkedin.png" alt="My LinkedIn" 
+                        class="icon" onclick="location.href='https://www.linkedin.com/in/arun-karthik-3b08b5218'">
+                        <img src="./assets/github.png" alt="My github" 
+                        class="icon" onclick="location.href='https://github.com/ArunKarthik05'">
+                        </div>
+                        <div class="socials-container-2">
+                        <img src="./assets/leetcode.png" alt="My Leetcode" 
+                        class="icon1" onclick="location.href='https://leetcode.com/arun_karthik_ak/'">
+                        <img src="./assets/gfg.png" alt="My GFG" 
+                        class="icon1" onclick="location.href='https://auth.geeksforgeeks.org/user/ak050djj3'">
+                    </div>
+            </div>
+            </div>
+    </section>
+
+    <section id="about">
+        <p class="Know-More">Know More</p>
+        <h1 class="title">About Me</h1>
+        <div class="section-container">
+            <div class="section__pic-container">
+                <img src="./assets/profile-pic.jpeg" alt="About Pic"
+                class="about-pic">
+            </div>
+            <div class="about-details-container">
+                <div class="about-containers">
+                    <div class="details-container">
+                        <img src="./assets/experience.png" alt="Experience icon" class="icon1">
+                        <h3>Skills</h3>
+                        <ul class="skills">
+                            <li class="skills-list">Html5,CSS & JavaScript</li>
+                            <li class="skills-list">React.js</li>
+                            <li class="skills-list">Node.js</li>
+                            <li class="skills-list">Express</li>
+                        </ul>
+                    </div>
+                        <div class="details-container">
+                            <img src="./assets/education.png" alt="Experience icon" class="icon1">
+                            <h3>Education</h3>
+                            <p>B.Sc Computer Science
+                                <br />Master in Computer Applications
+                            </p>
+                    </div>
+                </div>
+                <div class="text-container">
+                <p>
+                    I am a Computer Science
+                    graduate with strong fundamental programming skills and knowledge who is passionate about
+                    Competitive Programming and Software engineering. I am working on my MERN Stack development skills and am keen about diving deep into integrating AI and ML
+                    concepts into Software Development.</p>
+                </div>
+            </div>
+        </div>
+        <span class="arrow">
+        <img src="./assets/arrow.png" alt="arrow" onclick="location.href='./experience'" class="icon1">
+    </span>
+    </section>
+    <script src="script.js"></script>
+</body>
+</html>
