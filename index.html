@@ -6,6 +6,7 @@
     <title>My PortFolio</title>
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="mediaqueries.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
 </head>
 <body>
     <nav id="desktop-nav">
@@ -13,7 +14,7 @@
         <div>
             <ul class="nav-links">
                 <li><a href="#about">About</a></li>
-                <li><a href="#xperience">Experience</a></li>
+                <li><a href="#experience">Experience</a></li>
                 <li><a href="#projects">Projects</a></li>
                 <li><a href="#contact">Contact</a></li>
             </ul>
@@ -34,12 +35,10 @@
                     <li><a href="#contact" onclick="toggleMenu()">Contact</a></li>
             </div>
         </div>
-
-
     </nav>
     <section id="profile">
         <div class="Profile-pic">
-            <img src="./assets/profile.jpeg" alt="My profile pic" class="" >
+            <img src="./assets/profile.jpeg" alt="My profile pic" class="profile" >
         </div>
             <div class="section__text">
                 <p class="section__text__p1">Hello,I am</p>
@@ -55,17 +54,17 @@
                 <div class="socials">
                     <div class="socials-container-1">
                         <img src="./assets/linkedin.png" alt="My LinkedIn" 
-                        class="icon" onclick="location.href='https://www.linkedin.com/in/arun-karthik-3b08b5218'">
+                        class="icon" onclick="window.open('https://www.linkedin.com/in/arun-karthik-3b08b5218')" >
                         <img src="./assets/github.png" alt="My github" 
-                        class="icon" onclick="location.href='https://github.com/ArunKarthik05'">
+                        class="icon" onclick="window.open('https://github.com/ArunKarthik05')">
                         </div>
                         <div class="socials-container-2">
                         <img src="./assets/leetcode.png" alt="My Leetcode" 
-                        class="icon1" onclick="location.href='https://leetcode.com/arun_karthik_ak/'">
+                        class="icon1" onclick="window.open('https://leetcode.com/arun_karthik_ak/')">
                         <img src="./assets/gfg.png" alt="My GFG" 
-                        class="icon1" onclick="location.href='https://auth.geeksforgeeks.org/user/ak050djj3'">
+                        class="icon1" onclick="window.open('https://auth.geeksforgeeks.org/user/ak050djj3')">
                     </div>
-            </div>
+                </div>
             </div>
     </section>
 
@@ -107,9 +106,156 @@
             </div>
         </div>
         <span class="arrow">
-        <img src="./assets/arrow.png" alt="arrow" onclick="location.href='./experience'" class="icon1">
-    </span>
+        <img src="./assets/arrow.png" alt="arrow" onclick="location.href='./#experience'" class="icon1">
+        </span>
     </section>
+    <section id="experience">
+        <p class="Know-More">Let's Dive Into My</p>
+        <h1 class="title">Experience</h1>
+        <div class="experience-details-container">
+            <div class="about-containers">
+                <div class="details-container">
+                    <h2 class="exp-sub-title">Frontend Development</h2>
+                    <div class="article-container">
+                        <article>
+                            <img src="./assets/checkmark.png" alt="Exp icon" class="icon">
+                            <div>
+                                <h3>HTML</h3>
+                                <p>Advanced</p>
+                        </article>
+                        <article>
+                            <img src="./assets/checkmark.png" alt="Exp icon" class="icon">
+                            <h3>CSS</h3>
+                            <p>Advanced</p>
+                        </article>
+                        <article>
+                            <img src="./assets/checkmark.png" alt="Exp icon" class="icon">
+                            <h3>JavaScript</h3>
+                            <p>Intermediate</p>
+                        </article>  
+                        <article>
+                            <img src="./assets/checkmark.png" alt="Exp icon" class="icon">
+                            <h3>Sass</h3>
+                            <p>Beginner</p>
+                        </article>  
+                        <article>
+                            <img src="./assets/checkmark.png" alt="Exp icon" class="icon">
+                            <h3>TypeScript</h3>
+                            <p>Beginner</p>
+                        </article>    
+                        </div>
+                    </div>
+                    <div class="details-container">
+                        <h2 class="exp-sub-title">Backend Development</h2>
+                        <div class="article-container">
+                            <article>
+                                <img src="./assets/checkmark.png" alt="Exp icon" class="icon">
+                                <div>
+                                    <h3>Node JS</h3>
+                                    <p>Intermediate</p>
+                            </article>
+                            <article>
+                                <img src="./assets/checkmark.png" alt="Exp icon" class="icon">
+                                <h3>Express JS</h3>
+                                <p>Intermediate</p>
+                            </article>
+                            <article>
+                                <img src="./assets/checkmark.png" alt="Exp icon" class="icon">
+                                <h3>MongoDB</h3>
+                                <p>Intermediate</p>
+                            </article>  
+                            <article>
+                                <img src="./assets/checkmark.png" alt="Exp icon" class="icon">
+                                <h3>Git & Github</h3>
+                                <p>Intermediate</p>
+                            </article>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <span class="arrow">
+            <img src="./assets/arrow.png" alt="arrow" onclick="location.href='./#projects'" class="icon1">
+        </span>
+    </section>
+    <div id="projects">
+        <p class="My-Recent">My Recent</p>
+        <h1 class="title">Projects</h1>
+        <div class="prj-details-container">
+            <div class="prj-container">
+                <div class="article-container">
+                    <img src="./assets/project-1.png" alt="project-img" class="prj-img">
+                </div>
+                <h2 class="project-title">Nike Website</h2>
+                <div class="btn-container-prj">
+                    <button class="view" onclick="window.open('https://arunkarthik05.github.io/NIKE_SITE/#nav')">View</button>
+                    <button class="git" onclick="window.open('https://github.com/ArunKarthik05/NIKE_SITE')">Github Repo</button>
+                </div>
+            </div>
+            <div class="prj-container">
+                <div class="article-container">
+                    <img src="./assets/project-2.png" alt="project-img" class="prj-img">
+                </div>
+                <h2 class="project-title">Image Search API</h2>
+                <div class="btn-container-prj">
+                    <button class="view" onclick="window.open('https://arunkarthik05.github.io/image_search_API/')">View</button>
+                    <button class="git" onclick="window.open('https://github.com/ArunKarthik05/image_search_API')">Github Repo</button>
+                </div>
+            </div>
+            <div class="prj-container">
+                <div class="article-img-container">
+                    <img src="./assets/project-3.png" alt="project-img" class="prj-img">
+                </div>
+                <h2 class="project-title">URL Shortner</h2>
+                <div class="btn-container-prj">
+                    <button class="view" onclick="window.open('https://arunkarthik05.github.io/URL_shortner/#')">View</button>
+                    <button class="git" onclick="window.open('https://github.com/ArunKarthik05/URL_shortner')">Github Repo</button>
+                </div>
+            </div>
+            <div class="prj-container">
+                <div class="article-container">
+                    <img src="./assets/project-4.png" alt="project-img" class="prj-img">
+                </div>
+                <h2 class="project-title">YouTube HomePage Clone</h2>
+                <div class="btn-container-prj">
+                    <button class="view" onclick="window.open('https://arunkarthik05.github.io/youtube-clone/')">View</button>
+                    <button class="git" onclick="window.open('https://github.com/ArunKarthik05/youtube-clone')">Github Repo</button>
+                </div>
+            </div>
+        </div>
+        <span class="arrow1">
+            <img src="./assets/arrow.png" alt="arrow" onclick="location.href='./#contact'" class="icon-arrow">
+        </span>
+    </div>
+    <section id="contact">
+        <p class="contact_text">Get in Touch</p>
+        <h1 class="title">Contact Me</h1>
+        <div class="upper-container">
+            <div class="info-container">
+                <img src="./assets/email.png" alt="email img" class="icon contact-icon">
+                <p><a href="mailto:ak05032k2@gmail.com">ak05032k2@gmail.com</a></p>
+            </div>
+            <div class="info-container">
+                <img src="./assets/linkedin.png" alt="LinkedIn" class="icon contact-icon">
+                <p><a onclick="window.open('https://www.linkedin.com/in/arun-karthik-3b08b5218')">Connect with me-LinkedIn</a></p>
+            </div>
+        </div>
+    </section>
+    <footer>
+        <nav>
+            <div class="nav-links-container">
+                <ul class="nav-links">
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#experience">Experience</a></li>
+                    <li><a href="#projects">Projects</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <span>
+                        <p><i class="fa-solid fa-angles-up" onclick="location.href='./#profile'"></i></p>
+                    </span>
+                </ul>
+            </div>
+        </nav>
+    </footer>
     <script src="script.js"></script>
 </body>
 </html>
