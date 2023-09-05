@@ -30,13 +30,13 @@
             </div>
             <div class="menu-links">
                 <li><a href="#about" onclick="toggleMenu()">About</a></li>
-                    <li><a href="#xperience" onclick="toggleMenu()">Experience</a></li>
+                    <li><a href="#experience" onclick="toggleMenu()">Experience</a></li>
                     <li><a href="#projects" onclick="toggleMenu()">Projects</a></li>
                     <li><a href="#contact" onclick="toggleMenu()">Contact</a></li>
             </div>
         </div>
     </nav>
-    <section id="profile">
+    <div id="profile">
         <div class="Profile-pic">
             <img src="./assets/profile.jpeg" alt="My profile pic" class="profile" >
         </div>
@@ -60,15 +60,15 @@
                         </div>
                         <div class="socials-container-2">
                         <img src="./assets/leetcode.png" alt="My Leetcode" 
-                        class="icon1" onclick="window.open('https://leetcode.com/arun_karthik_ak/')">
+                        class="icon-2" onclick="window.open('https://leetcode.com/arun_karthik_ak/')">
                         <img src="./assets/gfg.png" alt="My GFG" 
-                        class="icon1" onclick="window.open('https://auth.geeksforgeeks.org/user/ak050djj3')">
+                        class="icon-2" onclick="window.open('https://auth.geeksforgeeks.org/user/ak050djj3')">
                     </div>
                 </div>
             </div>
-    </section>
+        </div>
 
-    <section id="about">
+    <div id="about">
         <p class="Know-More">Know More</p>
         <h1 class="title">About Me</h1>
         <div class="section-container">
@@ -108,8 +108,8 @@
         <span class="arrow">
         <img src="./assets/arrow.png" alt="arrow" onclick="location.href='./#experience'" class="icon1">
         </span>
-    </section>
-    <section id="experience">
+    </div>
+    <div id="experience">
         <p class="Know-More">Let's Dive Into My</p>
         <h1 class="title">Experience</h1>
         <div class="experience-details-container">
@@ -174,10 +174,10 @@
                 </div>
             </div>
         </div>
-        <span class="arrow">
-            <img src="./assets/arrow.png" alt="arrow" onclick="location.href='./#projects'" class="icon1">
+        <span class="arrow-prj">
+            <img src="./assets/arrow.png" alt="arrow" onclick="location.href='./#projects'" class="prj-arrow">
         </span>
-    </section>
+    </div>
     <div id="projects">
         <p class="My-Recent">My Recent</p>
         <h1 class="title">Projects</h1>
@@ -227,7 +227,7 @@
             <img src="./assets/arrow.png" alt="arrow" onclick="location.href='./#contact'" class="icon-arrow">
         </span>
     </div>
-    <section id="contact">
+    <div id="contact">
         <p class="contact_text">Get in Touch</p>
         <h1 class="title">Contact Me</h1>
         <div class="upper-container">
@@ -240,9 +240,7 @@
                 <p><a onclick="window.open('https://www.linkedin.com/in/arun-karthik-3b08b5218')">Connect with me-LinkedIn</a></p>
             </div>
         </div>
-    </section>
-    <footer>
-        <nav>
+        <nav id="links-con">
             <div class="nav-links-container">
                 <ul class="nav-links">
                     <li><a href="#about">About</a></li>
@@ -255,7 +253,7 @@
                 </ul>
             </div>
         </nav>
-    </footer>
+    </div>
     <script src="script.js"></script>
 </body>
 </html>
