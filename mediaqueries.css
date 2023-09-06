@@ -49,25 +49,25 @@
         display: none;
     }
     /* about */
+    #about{
+        margin-top: 5rem;
+    }
     .section-container{
         display: block;
     }
     .Know-More{
-        margin-top: 3rem;
+       
         text-align: center;
         font-size:1rem;
     }
     .section__pic-container{
-        width: fit-content;
+        width: 80%;
         height: auto;
         margin-left: 2.5rem;
     }
     .about-pic{
-        display: flex;
-        width: fit-content;
-        margin: 1rem;
-        height: 46vh;
-        justify-content: center;
+       width: 100%;
+       height: 100%;
     }
     .details-container{
         width: 80%;
