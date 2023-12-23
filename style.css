@@ -405,7 +405,7 @@ color: white;
     display: flex;
     justify-content: center;
     flex-direction: column;
-    height: 60vh;
+    min-height: fit-content;
 }
 .contact_text{
     text-align: center;
