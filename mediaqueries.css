@@ -106,7 +106,7 @@
     #contact{
         margin-top: 1rem;
         display: block;
-        height: 90vh;
+        min-height: fit-content;
     }
     /* .contact{
         height: 80vh;
